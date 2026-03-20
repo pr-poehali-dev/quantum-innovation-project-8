@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Вилла «Янтарный берег»",
+    category: "Дом под ключ",
+    location: "Зеленоградск, Калининградская обл.",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/f3159852-3973-45ed-9e44-cc758b728585/files/b99250e0-c762-468a-9ca5-f3114d92cdbe.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Резиденция «Балтийская»",
+    category: "Дом с панорамным видом",
+    location: "Светлогорск, Калининградская обл.",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/f3159852-3973-45ed-9e44-cc758b728585/files/7eed6651-c880-4a71-a74b-689c69ca4765.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Коттедж «Дюны»",
+    category: "Дом в скандинавском стиле",
+    location: "Пионерский, Калининградская обл.",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/f3159852-3973-45ed-9e44-cc758b728585/files/9f45fc84-30ec-477b-b245-a9dd7d6f5c03.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
-    year: "2024",
-    image: "/images/hously-4.png",
+    title: "Усадьба «Куршская»",
+    category: "Дом с ландшафтным дизайном",
+    location: "Рыбачий, Калининградская обл.",
+    year: "2023",
+    image: "https://cdn.poehali.dev/projects/f3159852-3973-45ed-9e44-cc758b728585/files/049496c2-8e5b-4662-81dc-1ecaa4fd5b4d.jpg",
   },
 ]
 
@@ -68,7 +68,7 @@ export function Projects() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Построенные дома</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
           </div>
           <a
